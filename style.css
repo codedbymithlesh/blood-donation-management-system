@@ -1,0 +1,432 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.main-page{
+    margin: -8;
+}
+.header-page-section{
+    background-image: url("background-image.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+    height: 738px;
+    width: 100%; 
+}
+.nav{
+   height: 45px;
+   width: 100%; 
+   display: flex;
+}
+.nav-logo{
+    width: 230px;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    align-items: center;
+    color: white;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+    font-weight: 2px;
+    margin-right: 20px;
+}
+.nav-icons a{
+    text-decoration: none;
+    color: white;
+    margin-top: 13px;
+    float: left;
+}
+.donate-button-section{
+    width: 550px;
+    margin: auto;
+    display: inline;
+}
+.donate-button-section h2{
+    width: 40%;
+    font-size: 50px;
+    color: white;
+}
+.donate-button-section p{
+    width: 35%;
+    font-size: 30px;
+    color: gray;
+}
+.donate-button-section button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(230, 0, 0);
+    box-shadow: 0px 0px 5px 0.1px rgba(0, 0, 0, 0.421);
+}
+.donate-button-section button:hover{
+    background-color: rgb(162, 4, 4);
+}
+.find-donor{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 260px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+.form{
+    margin: auto;
+}
+.form label{
+    color: gray;
+}
+.blood-type{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74);
+}
+.blood-type:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.city-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74);
+}
+.city-section:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.submit{
+    margin-top: 25px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+.submit:hover{
+    background-color: rgb(162, 4, 4);
+}
+.donation-about{
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+.why-donate-blood{
+    display: flex;
+}
+.why-donate-blood img{
+    min-height: 100px;
+    max-height: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 20% 20% 20% 20%;
+    filter: grayscale(100%);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-top: 100px;
+}
+.content h3{
+    display: flex;    
+    justify-content: left;
+    width: 400px;
+    font-size: 40px;
+    color: rgb(179, 2, 2);
+}
+.content p{
+    margin-top: -20px;
+    min-width: 200px;
+    max-width: 500px;
+    font-size: 25px;
+    color: rgb(111, 0, 0);
+}
+.donor-journey{
+    display: flex;
+    width: 100%;
+}
+.donor-journey img{
+    min-height: 100px;
+    max-height: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 20% 20% 20% 20%;
+    filter: grayscale(100%);
+    
+}
+.content-donor{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    margin-top: 100px;   
+    width: 100%;
+}
+.content-donor h3{
+    display: flex;
+    padding-left: 35px;    
+    justify-content: left;
+    width: 400px;
+    font-size: 40px;
+    color: rgb(179, 2, 2);
+}
+.content-donor p{
+    margin-left: 40px;
+    margin-top: -20px;
+    min-width: 200px;
+    max-width: 500px;
+    font-size: 25px;
+    color: rgb(111, 0, 0);
+}
+.feedback-heading{
+    font-size: 40px;
+}
+.feedback-section{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    overflow-x: scroll; 
+}
+.person-feedback-section{
+    background-color: rgb(235, 201, 201);
+    height: 300px;
+    width: 700px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.person-feedback-section img{
+    display: flex;
+    float: left;
+    height: 50px;
+    border-radius: 50% 50% 50% 50%;
+    margin: 10px 10px 10px 10px;
+}
+.person-feedback-section h4{
+    margin-top: 22px;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.person-feedback-section p{
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    overflow-y: scroll;
+    color: gray;
+}
+.footer-section{
+    height: 150px;
+}
+.footer-logo{
+
+    text-align: center;
+    font-size: 30px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: -15px;
+    gap: 10px;
+}
+.footer-icon img{
+    height: 20px;
+}
+.footer-copyright{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*About Page*/
+
+.main-page-about{
+    margin: -8;
+}
+.nav-about{
+    margin-bottom: 80px;
+    height: 45px;
+    width: 100%; 
+    display: flex;
+ }
+ .nav-logo-about{
+     width: 230px;
+     display: flex;
+     margin-left: 15px;
+     margin-top: 15px;
+     align-items: center;
+     color: rgb(0, 0, 0);
+     letter-spacing: -1px;
+     font-size: 15px;
+ }
+ .nav-icons-about{
+     display: flex;
+     align-items: center;
+     font-weight: 2px;
+     margin-right: 20px;
+ }
+ .nav-icons-about a{
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+     margin-top: 13px;
+     float: left;
+ }
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+    width: 80%;
+    height: 500px;
+}
+/*register*/
+
+.register-donor{
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+}
+.name-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74);   
+}
+
+.name-section:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.email-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74);
+}
+.email-section:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.number-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74); 
+}
+.number-section:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.location-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74); 
+}
+.location-section:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.blood-section{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgba(254, 105, 105, 0.382);
+    color: rgb(74, 74, 74);
+    text-transform: uppercase;
+}
+.blood-section:hover{
+    box-shadow: 0px 0px 15px -5px;
+}
+.map-section{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+    margin: 0;
+    width: 900px;
+    height: 500px;
+}
+.map-section iframe{
+  border-radius: 20px;
+}
+.map-title{
+    margin-top: -30px;
+}

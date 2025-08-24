@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header-page-section-about" align="center">
+            <div class="nav-about">
+                <div class="nav-logo-about"><h2>BLOODDONATION</h2></div>
+                <div class="nav-icons-about"><a href="index.html">Home</a></div>
+                <div class="nav-icons-about"><a href="about.html">About US</a></div>
+                <div class="nav-icons-about"><a href="contact.html">Contact</a></div>
+                <div class="nav-icons-about"><a href="map.html">Map</a></div>
+            </div>
+                <div class="form-content">
+                <h2>Register as a Blood Donor</h2>
+                </div>
+                <div class="register-donor">
+                    <div class="form">
+                        <form action="register.php" method="post">
+                            <label for="name">Name</label><br>
+                            <input class="name-section" type="text" name="name" placeholder="ENTER YOUR NAME" required/><br>
+                            <label for="email">Email</label><br>
+                            <input class="email-section" type="email" placeholder="ENTER YOUR EMAIL" name="email" id="email" required/><br>
+                            <label for="number">Phone Number</label><br>
+                            <input class="number-section" maxlength="10" type="text" placeholder="ENTER YOUR NUMBER" name="number" id="number" required/><br>
+                            <label for="blood-group">Blood Group</label><br>
+                            <input class="blood-section" name="blood" type="text" placeholder="ENTER BLOOD TYPE" required><br>
+                            <label for="location">City</label><br>
+                            <input class="location-section" type="text" name="city" placeholder="ENTER YOUR CITY" id="location" required/><br>
+                            <button class="submit" type="submit" name="submit">Register</button>
+                    </form>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
